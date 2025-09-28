@@ -83,8 +83,4 @@ Di chat Telegram:
 * Ketik `!news` → akan muncul daftar berita terbaru
 * Ketik `!quake` → akan muncul info gempa terkini + link lokasi di Google Maps
 
----
 
-## 📄 Lisensi
-
-[MIT](https://choosealicense.com/licenses/mit/)
