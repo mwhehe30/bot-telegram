@@ -1,8 +1,3 @@
-Oke, saya tambahkan **tutorial cara mendapatkan API token Telegram** langsung di README biar orang lain juga bisa pakai tanpa bingung. API untuk berita (`Jakarta Post`), quote (`Kanye Rest`), dan gempa (`BMKG`) sudah **public/free**, jadi tidak perlu token. Hanya **Telegram Bot API** saja yang wajib.
-
-Berikut full teks README.md yang sudah ditambahkan tutorialnya 👇
-
----
 
 ````markdown
 # 🤖 Bot Telegram - News, Quotes, and Quake Info
