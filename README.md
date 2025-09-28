@@ -1,5 +1,5 @@
 
-````markdown
+
 # 🤖 Bot Telegram - News, Quotes, and Quake Info
 
 Bot Telegram sederhana berbasis **Node.js** yang dapat memberikan:
@@ -29,15 +29,14 @@ Bot Telegram sederhana berbasis **Node.js** yang dapat memberikan:
    ```bash
    git clone https://github.com/username/bot-telegram.git
    cd bot-telegram
-````
+   ```
 
 2. Install dependencies
-
    ```bash
    npm install
    ```
-3. Buat file `.env` lalu tambahkan token bot Telegram kamu
 
+3. Buat file `.env` lalu tambahkan token bot Telegram kamu
    ```env
    TELEGRAM_TOKEN=your_bot_token_here
    ```
@@ -49,19 +48,16 @@ Bot Telegram sederhana berbasis **Node.js** yang dapat memberikan:
 1. Buka aplikasi **Telegram**.
 2. Cari bot resmi bernama [@BotFather](https://t.me/botfather).
 3. Jalankan perintah:
-
    ```
    /start
    /newbot
    ```
 4. Ikuti instruksi untuk memberi **nama bot** dan **username bot** (harus diakhiri dengan `bot`, contoh: `myproject_bot`).
 5. Setelah selesai, BotFather akan memberikan **API Token** seperti contoh:
-
    ```
    1234567890:AAHdJx8DqwertyuiopasdfghjklZXCVbn
    ```
 6. Copy token tersebut dan masukkan ke file `.env`:
-
    ```env
    TELEGRAM_TOKEN=1234567890:AAHdJx8DqwertyuiopasdfghjklZXCVbn
    ```
@@ -83,9 +79,12 @@ Jika berhasil, bot akan otomatis **polling** dan siap digunakan di Telegram.
 ## 📝 Contoh Penggunaan
 
 Di chat Telegram:
-
 * Ketik `!quote` → akan muncul kutipan acak
 * Ketik `!news` → akan muncul daftar berita terbaru
 * Ketik `!quake` → akan muncul info gempa terkini + link lokasi di Google Maps
 
 ---
+
+## 📄 Lisensi
+
+[MIT](https://choosealicense.com/licenses/mit/)
